@@ -1,0 +1,48 @@
+{
+  "name": "superledgero",
+  "version": "1.0.0",
+  "description": "Superledgero Double Entry Accounting and Bookkeeping",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --harmony_async_await --full-trace --recursive -r './test/_init.js'"
+  },
+  "engines": {
+    "node": "7.5.x"
+  },
+  "node_args": [
+    "--harmony_async_await"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/protokris/superledgero.git"
+  },
+  "keywords": [
+    "ledger",
+    "accounting",
+    "bookkeeping",
+    "double",
+    "entry",
+    "finance"
+  ],
+  "author": "Kris Read",
+  "contributors": [
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "mongoose": "^4.8.x",
+    "mongoose-timestamp": "^0.6.x"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mocha-junit-reporter": "^1.13.0",
+    "mockgoose": "^6.0.8",
+    "sinon": "^1.17.7"
+  },
+  "files": [
+    "README.md",
+    "lib"
+  ]
+}
